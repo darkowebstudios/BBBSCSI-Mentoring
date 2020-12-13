@@ -1,0 +1,133 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+#bbpress-forums {
+	background: #1dcad3;
+	clear: both;
+	padding: 50px;
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 18px;
+	border-style: none;
+}
+#bbpress-forums li.bbp-footer, #bbpress-forums li.bbp-header {
+	background: #54575a;
+	font-weight: 700;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	border: none;
+}
+
+#bbpress-forums li.bbp-header {
+	margin-top: 30px;
+}
+
+#bbpress-forums ul.bbp-forums, #bbpress-forums ul.bbp-lead-topic, #bbpress-forums ul.bbp-replies, #bbpress-forums ul.bbp-search-results, #bbpress-forums ul.bbp-topics {
+	border:none;
+}
+
+#bbpress-forums div.bbp-reply-header {
+    background-color: #FFB81C !important;
+}
+
+#bbpress-forums div.even,
+#bbpress-forums ul.even {
+ background-color: #fff;
+}
+ 
+#bbpress-forums div.odd,
+#bbpress-forums ul.odd {
+ background-color: #fbfbfb;
+}
+
+#bbpress-forums .status-closed,
+#bbpress-forums .status-closed a {
+ color: #ccc;
+}
+
+#bbpress-forums .bbp-topic-content,
+#bbpress-forums .bbp-reply-content {
+    font-size: 20px;
+}
+
+span.bbp-admin-links {
+ float: right;
+ color: #ddd;
+}
+ 
+span.bbp-admin-links a {
+ color: white !important;
+ font-weight: normal;
+ font-size: 10px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+
+.menu-toggle, button, .ast-button, .ast-custom-button, .button, input#submit, input[type="button"], input[type="submit"], input[type="reset"] {
+	background-color:#FFB81C;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	text-transform: uppercase;
+	
+}
+
+
+div.bbp-breadcrumb{
+	color: #54575a !important;
+	font-size: 20px !important;
+	font-weight: 500;
+}
+
+ul.forum-titles {
+	font-size: 15px;
+}
+
+a.bbp-forum-title {
+	font-size: 20px;
+	color: #1dcad3 !important;
+	font-weight: 500;
+}
+
+#bbpress-forums a:hover {
+		color: #FFB81C !important;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic{
+	padding: 30px;
+}
+
+.postid-254 {
+	background: #1dcad3 !important;
+}
+
+article.forum.type-forum.status-publish{
+		background: #1dcad3 !important;
+}
+
+.ast-container{
+	padding: 0px;
+}
+
+.entry-title {
+	color: white !important;
+	font-weight: 500;
+	font-size: 50px;
+}
+
+.postid-135 {
+	background: #1dcad3 !important;
+}
+
+.forum-archive {
+	background: #1dcad3 !important;
+}
